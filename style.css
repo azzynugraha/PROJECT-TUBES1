@@ -1,0 +1,69 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.header h1 {
+    font-family: "Calibri";
+    font-size: 38px;
+    padding: 10px 0px;
+}
+
+.navigation {
+    border-bottom: 1px solid #ccc;    
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation li {
+    list-style: none;
+    list-style-type: none;
+    position: inline;
+    float: left;
+    margin: 0px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.navigation li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+.navigation li a:hover, .navigation li a.active {
+    background-color: #aaa;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.mid-content h1, .blog-feed h1 {
+    font-family: "Calibri";
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mid-content {
+    margin-bottom: 10px;
+}
+
+.blog-feed {
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.footer .columns {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Calibri";
+}
